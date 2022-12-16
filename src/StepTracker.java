@@ -130,8 +130,8 @@ public class StepTracker {
         System.out.println("\nКоличество шагов за месяц " + stepSum + "!");
         System.out.println("Максимальное количество шагов в день " + maxStep + "!");
         System.out.println("Среднее количество шагов в день " + averageStep + "!");
-        System.out.println("Пройденная дистанция " + converter.getKm(stepSum) + " км!");
-        System.out.println("Сожжено " + converter.getKilo(stepSum) + " килокалорий!");
+        System.out.println("Пройденная дистанция " + converter.convert2km(stepSum) + " км!");
+        System.out.println("Сожжено " + converter.convert2kKal(stepSum) + " килокалорий!");
         System.out.println("Ваша лучшая серия побед " + winRange + "!");
     }
 }

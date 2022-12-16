@@ -1,12 +1,12 @@
 public class Converter {
-    double stepLenght = 0.00075;    // в км
+    double stepLength = 0.00075;    // в км
     double stepKilo = 0.05;     // в ккал
 
-    double getKm(int steps) {
-        return steps * stepLenght;
+    double convert2km(int steps) {
+        return steps * stepLength;
     }
 
-    double getKilo(int steps) {
+    double convert2kKal(int steps) {
         return steps * stepKilo;
     }
 }
